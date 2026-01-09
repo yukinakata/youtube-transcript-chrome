@@ -1,0 +1,12 @@
+# YouTube/音声リアルタイム文字起こしアプリ
+# Python 3.11+ required
+
+# 音声処理
+sounddevice>=0.4.6
+numpy>=1.24.0
+
+# 文字起こし（Apple Silicon最適化）
+faster-whisper>=1.0.0
+
+# ユーティリティ
+python-dotenv>=1.0.0
